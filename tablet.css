@@ -1,0 +1,30 @@
+header .btn{
+    display: block;
+}
+header .menu{
+    position: fixed;
+    background: #1483d5;
+    flex-direction: column;
+    min-height: 400px;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    padding: 80px  50px;
+}
+header .menu.active{
+    right: 0;
+
+}
+header .menu .close-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 25px;
+
+}
+header .menu a{
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 0 15px;
+}
